@@ -108,7 +108,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img1" src="/css/images/5.jpg">
+                    <img id="carousel-img1" src="/css/images/2.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -129,7 +129,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img2" src="/css/images/4.jpg">
+                    <img id="carousel-img2" src="/css/images/3.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -150,7 +150,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img3" src="/css/images/2.jpg">
+                    <img id="carousel-img3" src="/css/images/4.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -171,7 +171,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img4" src="/css/images/sample.jpg">
+                    <img id="carousel-img4" src="/css/images/5.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -192,7 +192,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img5" src="https://source.unsplash.com/collection/954550/1920x1080">
+                    <img id="carousel-img5" src="/css/images/6.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -206,6 +206,27 @@
                         } else {
                           imageTag5.style.height = document.body.clientHeight + "px";
                           imageTag5.style.marginLeft = -(document.body.clientHeight * img5.width / img5.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img6" src="https://source.unsplash.com/collection/954550/1920x1080">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img6 = new Image();
+                      var imageTag6 = document.getElementById("carousel-img6");
+                      img6.src = imageTag6.src;
+                      img6.onload=function(){
+                        if (img6.width / img6.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag6.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag6.style.height = document.body.clientHeight + "px";
+                          imageTag6.style.marginLeft = -(document.body.clientHeight * img6.width / img6.height - document.body.clientWidth) / 2 + "px";
                         }
                       };
                   </script>
@@ -307,6 +328,8 @@
           <a id="beautifont" class="main-nav-link" href="/tags/学习">语言学习</a>
         
           <a id="beautifont" class="main-nav-link" href="/tags/随想">文化交流</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/tag/学习">师乡韩国学平生教育中心</a>
         
           <a id="beautifont" class="main-nav-link" href="/archives">所有文章</a>
         
@@ -821,6 +844,8 @@
     <a href="/tags/学习" class="mobile-nav-link">语言学习</a>
   
     <a href="/tags/随想" class="mobile-nav-link">文化交流</a>
+  
+    <a href="/tag/学习" class="mobile-nav-link">师乡韩国学平生教育中心</a>
   
     <a href="/archives" class="mobile-nav-link">所有文章</a>
   
