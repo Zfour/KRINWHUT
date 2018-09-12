@@ -210,6 +210,48 @@
                       };
                   </script>
                 
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img6" src="/css/images/7.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img6 = new Image();
+                      var imageTag6 = document.getElementById("carousel-img6");
+                      img6.src = imageTag6.src;
+                      img6.onload=function(){
+                        if (img6.width / img6.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag6.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag6.style.height = document.body.clientHeight + "px";
+                          imageTag6.style.marginLeft = -(document.body.clientHeight * img6.width / img6.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img7" src="/css/images/8.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img7 = new Image();
+                      var imageTag7 = document.getElementById("carousel-img7");
+                      img7.src = imageTag7.src;
+                      img7.onload=function(){
+                        if (img7.width / img7.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag7.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag7.style.height = document.body.clientHeight + "px";
+                          imageTag7.style.marginLeft = -(document.body.clientHeight * img7.width / img7.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
             </div>
 
             <!-- Controls -->
